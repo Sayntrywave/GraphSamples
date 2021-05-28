@@ -1,0 +1,21 @@
+digraph {
+    edge [color=red arrowhead=tee]
+    node [color=green]
+    rankdir=LR
+
+    a -> b -> c
+    { c [color=red] } -> { d[color=blue] } [arrowhead=vee]
+    d -> e:s [tailport=n]
+}
+
+/*
+graph(directed = true) {
+    edge["color" eq "red", Arrow.TEE]
+    node[Color.GREEN]
+    graph[RankDir.LEFT_TO_RIGHT]
+
+    "a" - "b" - "c"
+    ("c"[Color.RED] - "d"[Color.BLUE])[Arrow.VEE]
+    "d" / NORTH - "e" / SOUTH
+}
+*/

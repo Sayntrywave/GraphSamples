@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact name="GraphSamples:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GraphSamples_jar</output-path>
+    <root id="root">
+      <element id="archive" name="GraphSamples.jar">
+        <element id="module-output" name="GraphSamples" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="org.apache.xmlgraphics:batik-bridge:1.13" />
+        <element id="library" level="project" name="guru.nidi:graphviz-java:0.14.1" />
+        <element id="library" level="project" name="com.intellij:forms_rt:7.0.3" />
+      </element>
+      <element id="directory" name="files">
+        <element id="dir-copy" path="$PROJECT_DIR$/files" />
+      </element>
+    </root>
+  </artifact>
+</component>

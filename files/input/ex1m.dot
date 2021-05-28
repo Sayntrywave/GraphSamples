@@ -1,0 +1,8 @@
+digraph {
+    { a [color=red] } -> b
+}
+
+/*
+MutableGraph g = mutGraph("example1").setDirected(true).add(
+        mutNode("a").add(Color.RED).addLink(mutNode("b")));
+*/

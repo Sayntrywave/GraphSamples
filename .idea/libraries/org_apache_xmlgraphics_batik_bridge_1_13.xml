@@ -1,0 +1,53 @@
+<component name="libraryTable">
+  <library name="org.apache.xmlgraphics:batik-bridge:1.13" type="repository">
+    <properties maven-id="org.apache.xmlgraphics:batik-bridge:1.13" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-bridge/1.13/batik-bridge-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-anim/1.13/batik-anim-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-ext/1.13/batik-ext-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-awt-util/1.13/batik-awt-util-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-css/1.13/batik-css-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-dom/1.13/batik-dom-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/xalan/xalan/2.7.2/xalan-2.7.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/xalan/serializer/2.7.2/serializer-2.7.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-gvt/1.13/batik-gvt-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-parser/1.13/batik-parser-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-script/1.13/batik-script-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-shared-resources/1.13/batik-shared-resources-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-svg-dom/1.13/batik-svg-dom-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-util/1.13/batik-util-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-constants/1.13/batik-constants-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-i18n/1.13/batik-i18n-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-xml/1.13/batik-xml-1.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/1.3.1/commons-io-1.3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-bridge/1.13/batik-bridge-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-anim/1.13/batik-anim-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-ext/1.13/batik-ext-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-awt-util/1.13/batik-awt-util-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-css/1.13/batik-css-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-dom/1.13/batik-dom-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-gvt/1.13/batik-gvt-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-parser/1.13/batik-parser-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-script/1.13/batik-script-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-shared-resources/1.13/batik-shared-resources-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-svg-dom/1.13/batik-svg-dom-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-util/1.13/batik-util-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-constants/1.13/batik-constants-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-i18n/1.13/batik-i18n-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/batik-xml/1.13/batik-xml-1.13-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/1.3.1/commons-io-1.3.1-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,14 @@
+digraph {
+    rankdir=LR
+    { a [color=red] } -> b
+    b -> c [style=dashed]
+}
+
+/*
+    Graph g = graph("example1").directed()
+        .graphAttr().with(RankDir.LEFT_TO_RIGHT)
+        .with(
+                node("a").with(Color.RED).link(node("b")),
+                node("b").link(to(node("c")).with(Style.DASHED))
+        );
+*/

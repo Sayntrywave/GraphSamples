@@ -1,0 +1,36 @@
+digraph {
+    main [fontcolor="#1020d0" label=<<b>main</b><br/>start>]
+    init [label=<<b><u>init</u></b>>]
+    compare [shape=rectangle style=filled color=".7 .3 1.0"]
+    mkString [label="make\na\nmulti-line"]
+
+    main -> parse [weight=8]
+    parse -> execute
+    main -> init [style=dotted]
+    main -> cleanup
+    main -> printf [style=bold color=red label="100 times"]
+    execute -> { mkString printf }
+    execute -> compare [color=red]
+    init -> mkString
+}
+
+/*
+    Node main = node("main").with(Label.html("<b>main</b><br/>start"), Color.rgb("1020d0").font()),
+        init = node(Label.markdown("**_init_**")),
+        execute = node("execute"),
+        compare = node("compare").with(Shape.RECTANGLE, Style.FILLED, Color.hsv(.7, .3, 1.0)),
+        mkString = node("mkString").with(Label.lines(LEFT, "make", "a", "multi-line")),
+        printf = node("printf");
+
+    Graph g = graph("example2").directed().with(
+        main.link(
+            to(node("parse").link(execute)).with(LinkAttr.weight(8)),
+            to(init).with(Style.DOTTED),
+            node("cleanup"),
+            to(printf).with(Style.BOLD, Label.of("100 times"), Color.RED)),
+        execute.link(
+            graph().with(mkString, printf),
+            to(compare).with(Color.RED)),
+        init.link(mkString)
+    );
+*/

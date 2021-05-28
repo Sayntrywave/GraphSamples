@@ -1,0 +1,121 @@
+<svg width="700px" height="824px"
+ viewBox="0.00 0.00 220.74 260.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 256)">
+<title>%3</title>
+<defs>
+<linearGradient id="l_0" gradientUnits="userSpaceOnUse" x1="106.3723" y1="4" x2="106.3723" y2="-256" >
+<stop offset="0" style="stop-color:#ffffff;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#888888;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<polygon fill="url(#l_0)" stroke="transparent" points="-4,4 -4,-256 216.7445,-256 216.7445,4 -4,4"/>
+<!-- white -->
+<g id="node1" class="node">
+<title>white</title>
+<ellipse fill="#ffffff" stroke="#ffffff" stroke-width="4" cx="99.2976" cy="-234" rx="30.5947" ry="18"/>
+<text text-anchor="middle" x="99.2976" y="-230.3" font-family="Times,serif" font-size="14.00" fill="#000000">white</text>
+</g>
+<!-- cyan -->
+<g id="node2" class="node">
+<title>cyan</title>
+<ellipse fill="#ffffff" stroke="#00ffff" stroke-width="4" cx="27.2976" cy="-162" rx="27.0966" ry="18"/>
+<text text-anchor="middle" x="27.2976" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#000000">cyan</text>
+</g>
+<!-- white&#45;&#45;cyan -->
+<g id="edge1" class="edge">
+<title>white&#45;&#45;cyan</title>
+<path fill="none" stroke="#000000" d="M83.6747,-218.3771C71.4324,-206.1348 54.5024,-189.2049 42.3966,-177.099"/>
+</g>
+<!-- yellow -->
+<g id="node5" class="node">
+<title>yellow</title>
+<ellipse fill="#ffffff" stroke="#ffff00" stroke-width="4" cx="178.2976" cy="-162" rx="34.394" ry="18"/>
+<text text-anchor="middle" x="178.2976" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#000000">yellow</text>
+</g>
+<!-- white&#45;&#45;yellow -->
+<g id="edge2" class="edge">
+<title>white&#45;&#45;yellow</title>
+<path fill="none" stroke="#000000" d="M116.0514,-218.7307C129.2768,-206.6771 147.663,-189.9201 161.0217,-177.7451"/>
+</g>
+<!-- pink -->
+<g id="node7" class="node">
+<title>pink</title>
+<ellipse fill="#ffffff" stroke="#ffc0cb" stroke-width="4" cx="99.2976" cy="-162" rx="27" ry="18"/>
+<text text-anchor="middle" x="99.2976" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#000000">pink</text>
+</g>
+<!-- white&#45;&#45;pink -->
+<g id="edge3" class="edge">
+<title>white&#45;&#45;pink</title>
+<path fill="none" stroke="#000000" d="M99.2976,-215.8314C99.2976,-205 99.2976,-191.2876 99.2976,-180.4133"/>
+</g>
+<!-- blue -->
+<g id="node3" class="node">
+<title>blue</title>
+<ellipse fill="#ffffff" stroke="#0000ff" stroke-width="4" cx="27.2976" cy="-90" rx="27" ry="18"/>
+<text text-anchor="middle" x="27.2976" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">blue</text>
+</g>
+<!-- cyan&#45;&#45;blue -->
+<g id="edge4" class="edge">
+<title>cyan&#45;&#45;blue</title>
+<path fill="none" stroke="#000000" d="M27.2976,-143.8314C27.2976,-133 27.2976,-119.2876 27.2976,-108.4133"/>
+</g>
+<!-- green -->
+<g id="node4" class="node">
+<title>green</title>
+<ellipse fill="#ffffff" stroke="#00ff00" stroke-width="4" cx="103.2976" cy="-90" rx="30.5947" ry="18"/>
+<text text-anchor="middle" x="103.2976" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">green</text>
+</g>
+<!-- cyan&#45;&#45;green -->
+<g id="edge5" class="edge">
+<title>cyan&#45;&#45;green</title>
+<path fill="none" stroke="#000000" d="M43.0448,-147.0816C55.9144,-134.8893 74.0417,-117.7161 87.0461,-105.3961"/>
+</g>
+<!-- black -->
+<g id="node8" class="node">
+<title>black</title>
+<ellipse fill="#ffffff" stroke="#000000" stroke-width="4" cx="103.2976" cy="-18" rx="29.795" ry="18"/>
+<text text-anchor="middle" x="103.2976" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">black</text>
+</g>
+<!-- blue&#45;&#45;black -->
+<g id="edge6" class="edge">
+<title>blue&#45;&#45;black</title>
+<path fill="none" stroke="#000000" d="M43.0448,-75.0816C55.9144,-62.8893 74.0417,-45.7161 87.0461,-33.3961"/>
+</g>
+<!-- green&#45;&#45;black -->
+<g id="edge7" class="edge">
+<title>green&#45;&#45;black</title>
+<path fill="none" stroke="#000000" d="M103.2976,-71.8314C103.2976,-61 103.2976,-47.2876 103.2976,-36.4133"/>
+</g>
+<!-- yellow&#45;&#45;green -->
+<g id="edge8" class="edge">
+<title>yellow&#45;&#45;green</title>
+<path fill="none" stroke="#000000" d="M161.6526,-146.0209C149.0512,-133.9235 131.843,-117.4036 119.3812,-105.4403"/>
+</g>
+<!-- red -->
+<g id="node6" class="node">
+<title>red</title>
+<ellipse fill="#ffffff" stroke="#ff0000" stroke-width="4" cx="179.2976" cy="-90" rx="27" ry="18"/>
+<text text-anchor="middle" x="179.2976" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">red</text>
+</g>
+<!-- yellow&#45;&#45;red -->
+<g id="edge9" class="edge">
+<title>yellow&#45;&#45;red</title>
+<path fill="none" stroke="#000000" d="M178.5499,-143.8314C178.7004,-133 178.8908,-119.2876 179.0418,-108.4133"/>
+</g>
+<!-- red&#45;&#45;black -->
+<g id="edge10" class="edge">
+<title>red&#45;&#45;black</title>
+<path fill="none" stroke="#000000" d="M163.5503,-75.0816C150.6808,-62.8893 132.5534,-45.7161 119.549,-33.3961"/>
+</g>
+<!-- pink&#45;&#45;blue -->
+<g id="edge12" class="edge">
+<title>pink&#45;&#45;blue</title>
+<path fill="none" stroke="#000000" d="M84.0282,-146.7307C71.8096,-134.512 54.7577,-117.4602 42.5449,-105.2473"/>
+</g>
+<!-- pink&#45;&#45;red -->
+<g id="edge11" class="edge">
+<title>pink&#45;&#45;red</title>
+<path fill="none" stroke="#000000" d="M115.4868,-147.4297C129.3664,-134.938 149.2598,-117.034 163.1325,-104.5486"/>
+</g>
+</g>
+</svg>

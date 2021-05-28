@@ -1,0 +1,133 @@
+<svg width="900px" height="774px"
+ viewBox="0.00 0.00 308.00 265.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 261)">
+<title>example3</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-261 304,-261 304,4 -4,4"/>
+<!-- node0 -->
+<g id="node1" class="node">
+<title>node0</title>
+<polygon fill="none" stroke="#000000" points="0,-71 0,-186 54,-186 54,-71 0,-71"/>
+<text text-anchor="middle" x="27" y="-170.8" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+<polyline fill="none" stroke="#000000" points="0,-163 54,-163 "/>
+<text text-anchor="middle" x="27" y="-147.8" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+<polyline fill="none" stroke="#000000" points="0,-140 54,-140 "/>
+<text text-anchor="middle" x="27" y="-124.8" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+<polyline fill="none" stroke="#000000" points="0,-117 54,-117 "/>
+<text text-anchor="middle" x="27" y="-101.8" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+<polyline fill="none" stroke="#000000" points="0,-94 54,-94 "/>
+<text text-anchor="middle" x="27" y="-78.8" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- node1 -->
+<g id="node2" class="node">
+<title>node1</title>
+<polygon fill="none" stroke="#000000" points="90,-220.5 90,-256.5 177,-256.5 177,-220.5 90,-220.5"/>
+<text text-anchor="middle" x="105" y="-234.8" font-family="Times,serif" font-size="14.00" fill="#000000">n4</text>
+<polyline fill="none" stroke="#000000" points="120,-220.5 120,-256.5 "/>
+<text text-anchor="middle" x="138.5" y="-234.8" font-family="Times,serif" font-size="14.00" fill="#000000">719</text>
+<polyline fill="none" stroke="#000000" points="157,-220.5 157,-256.5 "/>
+<text text-anchor="middle" x="167" y="-234.8" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- node0&#45;&gt;node1 -->
+<g id="edge1" class="edge">
+<title>node0:f0&#45;&gt;node1:s</title>
+<path fill="none" stroke="#000000" d="M54,-174.5C76.9438,-174.5 69.7698,-200.676 90,-211.5 96.7959,-215.1361 118.0127,-212.6891 130.0113,-214.7261"/>
+<polygon fill="#000000" stroke="#000000" points="128.263,-217.7699 138.5,-220.5 132.1999,-211.9818 128.263,-217.7699"/>
+</g>
+<!-- node2 -->
+<g id="node3" class="node">
+<title>node2</title>
+<polygon fill="none" stroke="#000000" points="90.5,-165.5 90.5,-201.5 176.5,-201.5 176.5,-165.5 90.5,-165.5"/>
+<text text-anchor="middle" x="105" y="-179.8" font-family="Times,serif" font-size="14.00" fill="#000000">a1</text>
+<polyline fill="none" stroke="#000000" points="119.5,-165.5 119.5,-201.5 "/>
+<text text-anchor="middle" x="138" y="-179.8" font-family="Times,serif" font-size="14.00" fill="#000000">805</text>
+<polyline fill="none" stroke="#000000" points="156.5,-165.5 156.5,-201.5 "/>
+<text text-anchor="middle" x="166.5" y="-179.8" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- node0&#45;&gt;node2 -->
+<g id="edge2" class="edge">
+<title>node0:f1&#45;&gt;node2:w</title>
+<path fill="none" stroke="#000000" d="M54,-151.5C71.3602,-151.5 70.4463,-172.2207 80.6682,-180.3147"/>
+<polygon fill="#000000" stroke="#000000" points="79.9081,-183.7475 90.5,-183.5 82.0655,-177.0883 79.9081,-183.7475"/>
+</g>
+<!-- node3 -->
+<g id="node4" class="node">
+<title>node3</title>
+<polygon fill="none" stroke="#000000" points="91.5,-110.5 91.5,-146.5 175.5,-146.5 175.5,-110.5 91.5,-110.5"/>
+<text text-anchor="middle" x="105" y="-124.8" font-family="Times,serif" font-size="14.00" fill="#000000">i9</text>
+<polyline fill="none" stroke="#000000" points="118.5,-110.5 118.5,-146.5 "/>
+<text text-anchor="middle" x="137" y="-124.8" font-family="Times,serif" font-size="14.00" fill="#000000">718</text>
+<polyline fill="none" stroke="#000000" points="155.5,-110.5 155.5,-146.5 "/>
+<text text-anchor="middle" x="165.5" y="-124.8" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- node0&#45;&gt;node3 -->
+<g id="edge3" class="edge">
+<title>node0:f2&#45;&gt;node3:w</title>
+<path fill="none" stroke="#000000" d="M54,-128.5C66.6302,-128.5 72.0819,-128.5 81.235,-128.5"/>
+<polygon fill="#000000" stroke="#000000" points="81.5,-132.0001 91.5,-128.5 81.5,-125.0001 81.5,-132.0001"/>
+</g>
+<!-- node4 -->
+<g id="node5" class="node">
+<title>node4</title>
+<polygon fill="none" stroke="#000000" points="90.5,-55.5 90.5,-91.5 176.5,-91.5 176.5,-55.5 90.5,-55.5"/>
+<text text-anchor="middle" x="105" y="-69.8" font-family="Times,serif" font-size="14.00" fill="#000000">e5</text>
+<polyline fill="none" stroke="#000000" points="119.5,-55.5 119.5,-91.5 "/>
+<text text-anchor="middle" x="138" y="-69.8" font-family="Times,serif" font-size="14.00" fill="#000000">989</text>
+<polyline fill="none" stroke="#000000" points="156.5,-55.5 156.5,-91.5 "/>
+<text text-anchor="middle" x="166.5" y="-69.8" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- node0&#45;&gt;node4 -->
+<g id="edge4" class="edge">
+<title>node0:f3&#45;&gt;node4:w</title>
+<path fill="none" stroke="#000000" d="M54,-105.5C71.3602,-105.5 70.4463,-84.7793 80.6682,-76.6853"/>
+<polygon fill="#000000" stroke="#000000" points="82.0655,-79.9117 90.5,-73.5 79.9081,-73.2525 82.0655,-79.9117"/>
+</g>
+<!-- node5 -->
+<g id="node6" class="node">
+<title>node5</title>
+<polygon fill="none" stroke="#000000" points="91.5,-.5 91.5,-36.5 175.5,-36.5 175.5,-.5 91.5,-.5"/>
+<text text-anchor="middle" x="105" y="-14.8" font-family="Times,serif" font-size="14.00" fill="#000000">t2</text>
+<polyline fill="none" stroke="#000000" points="118.5,-.5 118.5,-36.5 "/>
+<text text-anchor="middle" x="137" y="-14.8" font-family="Times,serif" font-size="14.00" fill="#000000">959</text>
+<polyline fill="none" stroke="#000000" points="155.5,-.5 155.5,-36.5 "/>
+<text text-anchor="middle" x="165.5" y="-14.8" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- node0&#45;&gt;node5 -->
+<g id="edge5" class="edge">
+<title>node0:f4&#45;&gt;node5:n</title>
+<path fill="none" stroke="#000000" d="M54,-82.5C76.9438,-82.5 69.7903,-56.3622 90,-45.5 96.6538,-41.9238 117.4339,-44.2385 129.1858,-42.1935"/>
+<polygon fill="#000000" stroke="#000000" points="131.2267,-45.0379 137.5,-36.5 127.2716,-39.2623 131.2267,-45.0379"/>
+</g>
+<!-- node6 -->
+<g id="node7" class="node">
+<title>node6</title>
+<polygon fill="none" stroke="#000000" points="213,-147.5 213,-183.5 300,-183.5 300,-147.5 213,-147.5"/>
+<text text-anchor="middle" x="228" y="-161.8" font-family="Times,serif" font-size="14.00" fill="#000000">o1</text>
+<polyline fill="none" stroke="#000000" points="243,-147.5 243,-183.5 "/>
+<text text-anchor="middle" x="261.5" y="-161.8" font-family="Times,serif" font-size="14.00" fill="#000000">794</text>
+<polyline fill="none" stroke="#000000" points="280,-147.5 280,-183.5 "/>
+<text text-anchor="middle" x="290" y="-161.8" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- node2&#45;&gt;node6 -->
+<g id="edge6" class="edge">
+<title>node2:p&#45;&gt;node6:nw</title>
+<path fill="none" stroke="#000000" d="M176.5,-183.5C188.4132,-183.5 196.3273,-189.6863 204.2341,-188.4297"/>
+<polygon fill="#000000" stroke="#000000" points="205.9994,-191.4525 213,-183.5 202.5681,-185.3512 205.9994,-191.4525"/>
+</g>
+<!-- node7 -->
+<g id="node8" class="node">
+<title>node7</title>
+<polygon fill="none" stroke="#000000" points="213.5,-73.5 213.5,-109.5 299.5,-109.5 299.5,-73.5 213.5,-73.5"/>
+<text text-anchor="middle" x="228" y="-87.8" font-family="Times,serif" font-size="14.00" fill="#000000">s7</text>
+<polyline fill="none" stroke="#000000" points="242.5,-73.5 242.5,-109.5 "/>
+<text text-anchor="middle" x="261" y="-87.8" font-family="Times,serif" font-size="14.00" fill="#000000">659</text>
+<polyline fill="none" stroke="#000000" points="279.5,-73.5 279.5,-109.5 "/>
+<text text-anchor="middle" x="289.5" y="-87.8" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- node4&#45;&gt;node7 -->
+<g id="edge7" class="edge">
+<title>node4:p&#45;&gt;node7:sw</title>
+<path fill="none" stroke="#000000" d="M176.5,-73.5C188.5764,-73.5 196.5989,-67.229 204.6141,-68.5028"/>
+<polygon fill="#000000" stroke="#000000" points="203.0681,-71.6488 213.5,-73.5 206.4994,-65.5475 203.0681,-71.6488"/>
+</g>
+</g>
+</svg>
