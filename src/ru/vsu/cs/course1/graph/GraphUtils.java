@@ -92,7 +92,7 @@ public class GraphUtils {
             /**/
         } else if (Pattern.compile("^\\s*\\d+").matcher(str).find()) {
             Scanner scanner = new Scanner(str);
-            vertexCount = scanner.nextInt();
+           // vertexCount = scanner.nextInt();
             int edgeCount = scanner.nextInt();
             for (int i = 0; i < edgeCount; i++) {
                 if (isWeightedGraph){

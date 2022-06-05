@@ -83,7 +83,7 @@
                               <component id="13d65" class="javax.swing.JTextArea" binding="textAreaGraphFile">
                                 <constraints/>
                                 <properties>
-                                  <text value="13&#10;13&#10;0 5&#10;4 3&#10;0 1&#10;9 12&#10;6 4&#10;5 4&#10;0 2&#10;11 12&#10;9 10&#10;0 6&#10;7 8&#10;9 11&#10;5 3&#10;" noi18n="true"/>
+                                  <text value="13 0 5 4 3 0 1 9 12 6 4 5 4 0 2 11 12 9 10 0 6 7 8 9 11 5 3 " noi18n="true"/>
                                 </properties>
                               </component>
                             </children>
