@@ -24,6 +24,7 @@ public interface Graph {
      */
     void addAdge(int v1, int v2);
 
+
     /**
      * Удаление ребра/ребер между вершинами с номерами v1 и v2
      * @param v1
@@ -35,7 +36,8 @@ public interface Graph {
      * @param v Номер вершины, смежные с которой необходимо найти
      * @return Объект, поддерживающий итерацию по номерам связанных с v вершин
      */
-    Iterable<Integer> adjacencies(int v);
+    Iterable<Integer> adjacency(int v);
+
 
     /**
      * Проверка смежности двух вершин
@@ -44,7 +46,7 @@ public interface Graph {
      * @return
      */
     default boolean isAdj(int v1, int v2) {
-        for (Integer adj : adjacencies(v1)) {
+        for (Integer adj : adjacency(v1)) {
             if (adj == v2) {
                 return true;
             }

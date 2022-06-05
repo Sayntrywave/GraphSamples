@@ -1,9 +1,6 @@
 package ru.vsu.cs.course1.graph;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 import java.util.function.Consumer;
 
 public class GraphAlgorithms {
@@ -22,7 +19,7 @@ public class GraphAlgorithms {
             void visit(Integer curr) {
                 visitor.accept(curr);
                 visited[curr] = true;
-                for (Integer v : graph.adjacencies(curr)) {
+                for (Integer v : graph.adjacency(curr)) {
                     if (!visited[v]) {
                         visit(v);
                     }
@@ -47,7 +44,7 @@ public class GraphAlgorithms {
         while (!stack.empty()) {
             Integer curr = stack.pop();
             visitor.accept(curr);
-            for (Integer v : graph.adjacencies(curr)) {
+            for (Integer v : graph.adjacency(curr)) {
                 if (!visited[v]) {
                     stack.push(v);
                     visited[v] = true;
@@ -71,7 +68,7 @@ public class GraphAlgorithms {
         while (queue.size() > 0) {
             Integer curr = queue.remove();
             visitor.accept(curr);
-            for (Integer v : graph.adjacencies(curr)) {
+            for (Integer v : graph.adjacency(curr)) {
                 if (!visited[v]) {
                     queue.add(v);
                     visited[v] = true;
@@ -108,7 +105,7 @@ public class GraphAlgorithms {
                     @Override
                     public Integer next() {
                         Integer result = stack.pop();
-                        for (Integer adj : graph.adjacencies(result)) {
+                        for (Integer adj : graph.adjacency(result)) {
                             if (!visited[adj]) {
                                 visited[adj] = true;
                                 stack.add(adj);
@@ -148,7 +145,7 @@ public class GraphAlgorithms {
                     @Override
                     public Integer next() {
                         Integer result = queue.remove();
-                        for (Integer adj : graph.adjacencies(result)) {
+                        for (Integer adj : graph.adjacency(result)) {
                             if (!visited[adj]) {
                                 visited[adj] = true;
                                 queue.add(adj);
@@ -159,5 +156,91 @@ public class GraphAlgorithms {
                 };
             }
         };
+    }
+
+
+    /**
+     * Алгоритм Дейкстры
+     * (простейшая реализация без приоритетной очереди за n^2)
+     */
+    public static class MinDistanceSearchResult {
+        public double d[];
+        public int from[];
+    }
+
+    public static MinDistanceSearchResult dijkstra(WeightedGraph graph, int source, int target) {
+        int n = graph.vertexCount();
+
+        double[] d = new double[n];
+        int[] from = new int[n];
+        boolean[] found = new boolean[n];
+
+        Arrays.fill(d, Double.MAX_VALUE);
+        d[source] = 0;
+        int prev = -1;
+        for (int i = 0; i < n; i++) {
+            // ищем "ненайденную" вершину с минимальным d[i]
+            // (в общем случае обращение к приоритетной очереди)
+            int curr = -1;
+            for (int j = 0; j < n; j++) {
+                if (!found[j] && (curr < 0 || d[j] < d[curr])) {
+                    curr = j;
+                }
+            }
+
+            found[curr] = true;
+            from[curr] = prev;
+            if (curr == target) {
+                break;
+            }
+            for (WeightedGraph.WeightedEdgeTo v : graph.adjacencyWithWeights(curr)) {
+                if (d[curr] + v.weight() < d[v.to()]) {
+                    d[v.to()] = d[curr] + v.weight();
+                    // в общем случае надо было изменить в приоритетной очереди приоритет для v.to()
+                }
+            }
+        }
+
+        // возвращение результата
+        MinDistanceSearchResult result = new MinDistanceSearchResult();
+        result.d = d;
+        result.from = from;
+        return result;
+    }
+
+    /**
+     * Алгоритм Белмана-Форда
+     * O(n*m)
+     */
+    public static MinDistanceSearchResult bellmanFord(WeightedGraph graph, int source) {
+        int n = graph.vertexCount();
+
+        double[] d = new double[n];
+        int[] from = new int[n];
+
+        Arrays.fill(d, Double.MAX_VALUE);
+        d[source] = 0;
+        for (int i = 0; i < n - 1; i++) {
+            boolean changed = false;
+            // обход всех связей (в данной реализации - цикл в цикле)
+            for (int j = 0; j < n; j++) {
+                for (WeightedGraph.WeightedEdgeTo v : graph.adjacencyWithWeights(j)) {
+                    if (d[v.to()] > d[j] + v.weight()) {
+                        d[v.to()] = d[j] + v.weight();
+                        from[v.to()] = j;
+                        changed = true;
+                    }
+                }
+            }
+            if (!changed) {
+                break;
+            }
+        }
+
+        // возвращение результата
+        MinDistanceSearchResult result = new MinDistanceSearchResult();
+        result.d = d;
+        result.from = from;
+        return result;
     }
 }

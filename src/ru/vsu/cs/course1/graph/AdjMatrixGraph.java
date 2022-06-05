@@ -72,7 +72,7 @@ public class AdjMatrixGraph implements Graph {
     }
 
     @Override
-    public Iterable<Integer> adjacencies(int v) {
+    public Iterable<Integer> adjacency(int v) {
         return new Iterable<Integer>() {
             Integer nextAdj = null;
 

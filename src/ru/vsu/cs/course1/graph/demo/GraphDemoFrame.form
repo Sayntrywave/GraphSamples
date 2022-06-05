@@ -135,8 +135,12 @@
                                   <model>
                                     <item value="Н-граф (AdjMatrixGraph)"/>
                                     <item value="Н-граф (AdjListsGraph)"/>
+                                    <item value="Взвешенный Н-граф (AdjListsWeightedGraph)"/>
+                                    <item value="Взвешенный Н-граф (AdjMatrixWeightedGraph)"/>
                                     <item value="Орграф (AdjMatrixDigraph)"/>
                                     <item value="Орграф (AdjListsDigraph)"/>
+                                    <item value="Взвешенный Орграф (AdjListsWeightedDigraph)"/>
+                                    <item value="Взвешенный Орграф (AdjMatrixWeightedDigraph)"/>
                                   </model>
                                 </properties>
                               </component>

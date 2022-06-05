@@ -24,7 +24,6 @@ import static guru.nidi.graphviz.model.Factory.node;
 import static guru.nidi.graphviz.model.Factory.to;
 import static guru.nidi.graphviz.model.Factory.port;
 
-import guru.nidi.graphviz.model.Graph;
 import guru.nidi.graphviz.model.MutableGraph;
 import guru.nidi.graphviz.model.Node;
 import guru.nidi.graphviz.parse.Parser;
@@ -39,9 +38,15 @@ import java.util.Locale;
 import javax.swing.JFrame;
 import javax.swing.UIManager;
 
+import ru.vsu.cs.course1.graph.AdjListsGraph;
+import ru.vsu.cs.course1.graph.Graph;
+import ru.vsu.cs.course1.graph.WeightedGraph;
 import ru.vsu.cs.util.SwingUtils;
 
 public class Program {
+
+    public static void dijkstraDemo() {
+    }
 
     /**
      * Основная функция программы
@@ -51,10 +56,6 @@ public class Program {
      */
     public static void main(String[] args) throws Exception {
         Locale.setDefault(Locale.ROOT);
-
-        //SwingUtils.setLookAndFeelByName("Windows");
-        //UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-        //SwingUtils.setDefaultFont(null, 20);
         UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
         SwingUtils.setDefaultFont("Arial", 20);
 

@@ -197,6 +197,7 @@ public class GraphDemoFrame extends JFrame {
         });
         buttonCreateGraph.addActionListener(e -> {
             try {
+
                 String name = comboBoxGraphType.getSelectedItem().toString();
                 Matcher matcher = Pattern.compile(".*\\W(\\w+)\\s*\\)\\s*$").matcher(name);
                 matcher.find();
@@ -205,6 +206,7 @@ public class GraphDemoFrame extends JFrame {
                 Graph graph = GraphUtils.fromStr(textAreaGraphFile.getText(), clz);
                 GraphDemoFrame.this.graph = graph;
                 panelGraphPainter.paint(dotToSvg(GraphUtils.toDot(graph)));
+//                panelGraphPainter.paint(dotToSvg(str));
             } catch (Exception exc) {
                 SwingUtils.showErrorMessageBox(exc);
             }
@@ -472,8 +474,12 @@ public class GraphDemoFrame extends JFrame {
         final DefaultComboBoxModel defaultComboBoxModel1 = new DefaultComboBoxModel();
         defaultComboBoxModel1.addElement("Н-граф (AdjMatrixGraph)");
         defaultComboBoxModel1.addElement("Н-граф (AdjListsGraph)");
+        defaultComboBoxModel1.addElement("Взвешенный Н-граф (AdjListsWeightedGraph)");
+        defaultComboBoxModel1.addElement("Взвешенный Н-граф (AdjMatrixWeightedGraph)");
         defaultComboBoxModel1.addElement("Орграф (AdjMatrixDigraph)");
         defaultComboBoxModel1.addElement("Орграф (AdjListsDigraph)");
+        defaultComboBoxModel1.addElement("Взвешенный Орграф (AdjListsWeightedDigraph)");
+        defaultComboBoxModel1.addElement("Взвешенный Орграф (AdjMatrixWeightedDigraph)");
         comboBoxGraphType.setModel(defaultComboBoxModel1);
         panel3.add(comboBoxGraphType, new GridConstraints(0, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_HORIZONTAL, GridConstraints.SIZEPOLICY_CAN_GROW, GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         buttonCreateGraph = new JButton();

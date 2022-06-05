@@ -9,11 +9,11 @@ import java.util.List;
  * Реализация графа на основе списков смежности
  */
 public class AdjListsGraph implements Graph {
-    private List<List<Integer>> vEdjLists = new ArrayList<>();
-    private int vCount = 0;
-    private int eCount = 0;
+    protected List<List<Integer>> vEdjLists = new ArrayList<>();
+    protected int vCount = 0;
+    protected int eCount = 0;
 
-    private static Iterable<Integer> nullIterable = new Iterable<Integer>() {
+    protected static Iterable<Integer> nullIterable = new Iterable<Integer>() {
         @Override
         public Iterator<Integer> iterator() {
             return new Iterator<Integer>() {
@@ -63,10 +63,10 @@ public class AdjListsGraph implements Graph {
         }
     }
 
-    private int countingRemove(List<Integer> list, int v) {
+    private <T> int countingRemove(List<T> list, int v) {
         int count = 0;
         if (list != null) {
-            for (Iterator<Integer> it = list.iterator(); it.hasNext(); ) {
+            for (Iterator<T> it = list.iterator(); it.hasNext(); ) {
                 if (it.next().equals(v)) {
                     it.remove();
                     count++;
@@ -85,7 +85,7 @@ public class AdjListsGraph implements Graph {
     }
 
     @Override
-    public Iterable<Integer> adjacencies(int v) {
+    public Iterable<Integer> adjacency(int v) {
         return vEdjLists.get(v) == null ? nullIterable : vEdjLists.get(v);
     }
 }
